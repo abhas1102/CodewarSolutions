@@ -20,7 +20,6 @@ Count the numbers of digits d used in the writing of all the k**2. */
         for (k in j){
             d.toCharArray().map { if (it == k) sum++ }
         }
-
     }
     print(sum)
 }
